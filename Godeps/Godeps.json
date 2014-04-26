@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/freeformz/go-on-heroku",
+	"GoVersion": "go1.2.1",
+	"Deps": []
+}
