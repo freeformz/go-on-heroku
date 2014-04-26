@@ -1,0 +1,77 @@
+Go on Heroku
+Lightning Talk
+26 Apr 2014
+Tags: GopherCon, Heroku, Golang
+
+Edward Muller
+Heroku
+edward@heroku.com
+@freeformz
+
+* What is Heroku?
+
+.link www.heroku.com
+
+- PaaS
+- Build, Deploy, Scale
+- Addons (Postgres, Redis, Mongo, Iron.io, Papertrail, etc)
+- Build Packs (Go, Ruby, Node, etc)
+- Config (environment variables, releases)
+- Run (Dynos)
+- Logs (Tail & Drain)
+- ... and more
+
+* What do I need?
+
+Beta Command line client, written in Go
+
+Binaries: [[http://hk.heroku.com]]
+Source: [[https://github.com/heroku/hk]]
+
+Oh, and git
+
+* Simple Go Web App
+
+.play web.go
+
+* Prep
+
+.code prep.sh
+
+* Procfile
+
+.code procfile.sh
+
+* Create & Deploy
+
+.code deploy.sh
+
+.link https://go-on-heroku.herokuapp.com
+
+* Some Public Go Programs/Utilities
+
+.link https://gobyexample.com
+.link http://www.log-shuttle.io
+.link https://github.com/heroku/log-iss
+.link https://github.com/heroku/force
+.link https://github.com/heroku/instruments
+.link https://github.com/heroku/slog
+.link https://github.com/heroku/urinception
+.link https://github.com/interagent/schematic
+
+* Related
+
+.link http://mmcgrana.github.io/2012/09/getting-started-with-go-on-heroku.html
+
+.link http://12factor.net
+.link https://github.com/kr/heroku-buildpack-go
+.link https://github.com/tools/godep
+
+* Questions?
+
+
+
+
+
+
+
